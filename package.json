@@ -1,6 +1,22 @@
-"scripts": {
-    "preinstall": "rm -f package-lock.json yarn.lock",
-    "build": "npm run typecheck && npm run build --workspaces --if-present",
-    "typecheck:libs": "tsc --build",
-    "typecheck": "npm run typecheck:libs && npm run typecheck --workspaces --if-present"
+{
+  "name": "kasir",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "build": "npm run build --workspaces --if-present",
+    "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "expo": "^53.0.0",
+    "expo-router": "^5.0.0",
+    "react": "19.0.0",
+    "react-native": "0.79.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
