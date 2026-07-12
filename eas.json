@@ -4,9 +4,9 @@
       "android": {
         "buildType": "apk"
       },
-      "env": {
-        "NODE_VERSION": "20"
-      }
+      "node": "20",
+      "yarn": false,
+      "pnpm": true
     }
   }
 }
