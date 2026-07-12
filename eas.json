@@ -4,9 +4,13 @@
       "android": {
         "buildType": "apk"
       },
-      "node": "20",
-      "yarn": false,
-      "pnpm": true
+      "env": {
+        "EAS_NODE_VERSION": "20"
+      },
+      "preInstall": [
+        "corepack enable",
+        "corepack prepare pnpm@8.15.0 --activate"
+      ]
     }
   }
 }
