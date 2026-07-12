@@ -1,15 +1,20 @@
 {
-  "name": "Kasir",
-  "slug": "kasir",
-  "version": "1.0.0",
-  "sdkVersion": "53.0.0",
-  "platforms": ["ios", "android"],
-  "android": {
-    "package": "com.iga2929.kasir"
-  },
-  "extra": {
-    "eas": {
-      "projectId": "9a949e43-63cf-4659-9236-05cd221d13cc"
+  "expo": {
+    "name": "Depot Air Kasir",
+    "slug": "Depot-Air-Kasir",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.igab64043.depotairkasir",
+      "versionCode": 1,
+      "kotlinVersion": "1.9.24"
     }
   }
 }
