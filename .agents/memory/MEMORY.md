@@ -1,0 +1,1 @@
+- [expo-sqlite web setup](expo-sqlite-web.md) — requires wasm assetExts + COOP/COEP headers in metro.config.js or web preview hangs.
