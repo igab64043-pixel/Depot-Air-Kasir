@@ -3,9 +3,7 @@
     "preview": {
       "android": {
         "buildType": "apk"
-      },
-      "node": "18",
-      "preInstall": "npm i -g pnpm"
+      }
     }
   }
 }
