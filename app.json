@@ -1,17 +1,15 @@
 {
-  "expo": {
-    "name": "Kasir",
-    "slug": "kasir",
-    "version": "1.0.0",
-    "sdkVersion": "53.0.0",
-    "platforms": ["ios", "android"],
-    "android": {
-      "package": "com.iga2929.kasir"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "ganti-nanti-otomatis"
-      }
+  "name": "Kasir",
+  "slug": "kasir", 
+  "version": "1.0.0",
+  "sdkVersion": "53.0.0",
+  "platforms": ["ios", "android"],
+  "android": {
+    "package": "com.iga2929.kasir"
+  },
+  "extra": {
+    "eas": {
+      "projectId": "9a949e43-63cf-4659-9236-05cd221d3cc"
     }
   }
 }
