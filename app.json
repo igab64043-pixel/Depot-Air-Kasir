@@ -8,7 +8,6 @@
     "android": {
       "package": "com.igab64043.depotairkasir",
       "versionCode": 1,
-      "kotlinVersion": "1.8.22"
     },
     "ios": {
       "bundleIdentifier": "com.igab64043.depotairkasir"
