@@ -1,9 +1,9 @@
 {
   "expo": {
     "name": "Depot Air Kasir",
-    "slug": "Depot-Air-Kasir",
+    "slug": "Kasir",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation":"landscape",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
     "splash": {
