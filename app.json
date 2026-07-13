@@ -15,6 +15,11 @@
       "package": "com.igab64043.depotairkasir",
       "versionCode": 1,
       "kotlinVersion": "1.9.24"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9a949e43-63cf-4659-9236-05cd221d13cc"
+      }
     }
   }
 }
