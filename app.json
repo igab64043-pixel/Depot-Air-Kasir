@@ -4,12 +4,6 @@
     "slug": "kasir",
     "version": "1.0.0",
     "orientation":"landscape",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "automatic",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
     },
     "android": {
       "package": "com.igab64043.depotairkasir",
