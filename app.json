@@ -3,17 +3,23 @@
     "name": "Depot Air Kasir",
     "slug": "kasir",
     "version": "1.0.0",
-    "orientation":"landscape",
-    },
+    "orientation": "landscape",
+    "userInterfaceStyle": "automatic",
     "android": {
       "package": "com.igab64043.depotairkasir",
       "versionCode": 1,
       "kotlinVersion": "1.9.24"
     },
+    "ios": {
+      "bundleIdentifier": "com.igab64043.depotairkasir"
+    },
     "extra": {
       "eas": {
         "projectId": "9a949e43-63cf-4659-9236-05cd221d13cc"
       }
+    },
+    "experiments": {
+      "tsconfigPaths": true
     }
   }
 }
